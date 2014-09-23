@@ -4,6 +4,5 @@ _backup/*
 bundle/*
 .netrwhist
 
-!bundle/Vundle.vim
 !_temp/.keep
 !_backup/.keep
