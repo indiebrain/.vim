@@ -3,3 +3,6 @@ _temp/*
 _backup/*
 bundle/*
 .netrwhist
+
+!_temp/.keep
+!_backup/.keep
