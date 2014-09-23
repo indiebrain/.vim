@@ -3,5 +3,3 @@ _temp/*
 _backup/*
 bundle/*
 .netrwhist
-
-!bundle/Vundle.vim
