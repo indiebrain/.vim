@@ -12,12 +12,13 @@ set encoding=utf-8    " Set default encoding to UTF-8
 "" Whitespace
 ""
 
-set nowrap                        " don't wrap lines
-set tabstop=2                     " a tab is two spaces
-set shiftwidth=2                  " an autoindent (with <<) is two spaces
-set expandtab                     " use spaces, not tabs
-set list                          " Show invisible characters
-set backspace=indent,eol,start    " backspace through everything in insert mode
+set nowrap                         " don't wrap lines
+set tabstop=2                      " a tab is two spaces
+set shiftwidth=2                   " an autoindent (with <<) is two spaces
+set expandtab                      " use spaces, not tabs
+set list                           " Show invisible characters
+set backspace=indent,eol,start     " backspace through everything in insert mode
+autocmd BufWritePre * :%s/\s\+$//e " Remove trailing whitespace on save
 
 if exists("g:enable_mvim_shift_arrow")
   let macvim_hig_shift_movement = 1 " mvim shift-arrow-keys
