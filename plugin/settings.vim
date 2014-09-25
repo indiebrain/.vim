@@ -43,6 +43,14 @@ set ignorecase  " searches are case insensitive...
 set smartcase   " ... unless they contain at least one capital letter
 
 ""
+"" Folding
+""
+set foldmethod=indent   "fold based on indent
+set foldnestmax=10      "deepest fold is 10 levels
+set nofoldenable        "don't fold by default
+set foldlevel=1         "this is just what i use
+
+""
 "" Wild settings
 ""
 
